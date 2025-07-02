@@ -49,3 +49,7 @@
 .navbar__link:hover{
     color: var(--secundary-950);
 }
+
+p{
+    font-size: var(--fs-md);
+}
