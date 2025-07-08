@@ -1,7 +1,7 @@
 .header{
     /* display: grid;
     grid-template-columns: repeat( 1fr,1); */
-    position: fixed;
+    position: static;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -15,7 +15,7 @@
 
 .navbar__subtitle{
     font-size: var(--fs-xs);
-    color: var(--black);
+    color: var(--gray-700);
 }
 
 .navbar{
@@ -33,6 +33,7 @@
     gap: 0;
     width: 100%;
     list-style: none;
+    padding: 0;
 }
 
 .navbar__item{
@@ -49,6 +50,15 @@
     font-size: var(--fs-xs);
     transition: color 0.3s ease;
 }
+
+.navbar__link.active{
+    background-color: var(--white);
+    color: var(--primary-950);
+    border-radius: 1rem;
+
+    /* Froma de trapecio */
+    /* clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%, 0% 100%);*/
+} 
 
 .navbar__link:hover{
     color: var(--secundary-950);
