@@ -8,6 +8,14 @@
 
     <script src="/frontend/public/js/components/navbar.js" defer></script>
     <script src="/frontend/public/js/components/hero.js" defer></script>
+    <!-- <script src="/frontend/public/js/components/card.js" defer></script> -->
+
+    <!-- Script para cargar otdas las tarjetas (export)-->
+    <script type="module">
+        import {loadCards} from '/frontend/public/js/components/card.js';
+        loadCards(".cards-container"); // Llama a la función loadCards y pasa el selector del contenedor donde se cargarán las tarjetas
+    </script>
+
 </head>
 <body>
     <header class="header">
@@ -20,7 +28,11 @@
         <div class="hero-container"></div>
     </section>
     
+    <div class="cards-container"></div>
+    
     <h1> Estoy en Inicio</h1>
+
+    <script src="/frontend/public/data/cards.json"></script>
     
 </body>
 </html>

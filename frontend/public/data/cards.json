@@ -1,0 +1,25 @@
+[
+    {
+        "id":"diseño-web",
+        "title":"Diseño Web",
+        "icon1":"/frontend/assets/hero/icons/icon1.svg",
+        "icon2":"/frontend/assets/hero/icons/icon2.svg",
+        "description":"Volvemos tus ideas realidad<br>el mejor diseño para tu sitio web."
+    }
+    ,
+    {
+        "id":"desarrollo-movil",
+        "title":"Desarrollo movil",
+        "icon1":"/frontend/assets/hero/icons/icon1.svg",
+        "icon2":"/frontend/assets/hero/icons/icon2.svg",
+        "description":"Volvemos tus ideas realidad<br>para android y iOS."
+    },
+    {
+        "id":"base-datos",
+        "title":"Base de datos",
+        "icon1":"/frontend/assets/hero/icons/icon1.svg",
+        "icon2":"/frontend/assets/hero/icons/icon2.svg",
+        "description":"Impulsa tu marca con estrategias efectivas<br>bases de datos seguras y escalables."
+    }
+    
+]
